@@ -53,9 +53,77 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\Facebook.CSSLayout\CSSAlign.cs">
+      <Link>CSSAlign.cs</Link>
+    </Compile>
+    <Compile Include="..\Facebook.CSSLayout\CSSConstants.cs">
+      <Link>CSSConstants.cs</Link>
+    </Compile>
+    <Compile Include="..\Facebook.CSSLayout\CSSDimension.cs">
+      <Link>CSSDimension.cs</Link>
+    </Compile>
+    <Compile Include="..\Facebook.CSSLayout\CSSDIrection.cs">
+      <Link>CSSDIrection.cs</Link>
+    </Compile>
+    <Compile Include="..\Facebook.CSSLayout\CSSEdge.cs">
+      <Link>CSSEdge.cs</Link>
+    </Compile>
+    <Compile Include="..\Facebook.CSSLayout\CSSExperimentalFeature.cs">
+      <Link>CSSExperimentalFeature.cs</Link>
+    </Compile>
+    <Compile Include="..\Facebook.CSSLayout\CSSFlexDirection.cs">
+      <Link>CSSFlexDirection.cs</Link>
+    </Compile>
+    <Compile Include="..\Facebook.CSSLayout\CSSJustify.cs">
+      <Link>CSSJustify.cs</Link>
+    </Compile>
+    <Compile Include="..\Facebook.CSSLayout\CSSLogger.cs">
+      <Link>CSSLogger.cs</Link>
+    </Compile>
+    <Compile Include="..\Facebook.CSSLayout\CSSLogLevel.cs">
+      <Link>CSSLogLevel.cs</Link>
+    </Compile>
+    <Compile Include="..\Facebook.CSSLayout\CSSMeasureFunc.cs">
+      <Link>CSSMeasureFunc.cs</Link>
+    </Compile>
+    <Compile Include="..\Facebook.CSSLayout\CSSMeasureMode.cs">
+      <Link>CSSMeasureMode.cs</Link>
+    </Compile>
+    <Compile Include="..\Facebook.CSSLayout\CSSNode.Create.cs">
+      <Link>CSSNode.Create.cs</Link>
+    </Compile>
+    <Compile Include="..\Facebook.CSSLayout\CSSNode.cs">
+      <Link>CSSNode.cs</Link>
+    </Compile>
+    <Compile Include="..\Facebook.CSSLayout\CSSOverflow.cs">
+      <Link>CSSOverflow.cs</Link>
+    </Compile>
+    <Compile Include="..\Facebook.CSSLayout\CSSPositionType.cs">
+      <Link>CSSPositionType.cs</Link>
+    </Compile>
+    <Compile Include="..\Facebook.CSSLayout\CSSPrintOptions.cs">
+      <Link>CSSPrintOptions.cs</Link>
+    </Compile>
+    <Compile Include="..\Facebook.CSSLayout\CSSSize.cs">
+      <Link>CSSSize.cs</Link>
+    </Compile>
+    <Compile Include="..\Facebook.CSSLayout\CSSWrap.cs">
+      <Link>CSSWrap.cs</Link>
+    </Compile>
+    <Compile Include="..\Facebook.CSSLayout\MeasureFunction.cs">
+      <Link>MeasureFunction.cs</Link>
+    </Compile>
+    <Compile Include="..\Facebook.CSSLayout\MeasureOutput.cs">
+      <Link>MeasureOutput.cs</Link>
+    </Compile>
+    <Compile Include="..\Facebook.CSSLayout\Native.cs">
+      <Link>Native.cs</Link>
+    </Compile>
+    <Compile Include="..\Facebook.CSSLayout\Spacing.cs">
+      <Link>Spacing.cs</Link>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <Import Project="..\Facebook.CSSLayout.Shared\Facebook.CSSLayout.Shared.projitems" Label="Shared" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

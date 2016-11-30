@@ -299,7 +299,5 @@ namespace Facebook.CSSLayout
 
         [DllImport(DllName, ExactSpelling = true, CallingConvention = CallingConvention.Cdecl)]
         public static extern CSSDirection CSSNodeLayoutGetDirection(IntPtr node);
-
-        #endregion
     }
 }
