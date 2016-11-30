@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>2fa8cc37-a97b-4fb6-9457-9d1db5110920</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Facebook.CSSLayout.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)CSSAlign.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CSSConstants.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CSSDimension.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CSSDIrection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CSSEdge.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CSSExperimentalFeature.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CSSFlexDirection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CSSJustify.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CSSLogger.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CSSLogLevel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CSSMeasureFunc.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CSSMeasureMode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CSSNode.Create.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CSSNode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CSSOverflow.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CSSPositionType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CSSPrintOptions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CSSSize.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CSSWrap.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MeasureFunction.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MeasureOutput.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Native.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Spacing.cs" />
+  </ItemGroup>
+</Project>
