@@ -127,9 +127,10 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Facebook.CSSLayout">
-      <HintPath>..\Facebook.CSSLayout\bin\Debug\netstandard1.6\Facebook.CSSLayout.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\Facebook.CSSLayout.Universal\Facebook.CSSLayout.Universal.csproj">
+      <Project>{651019f2-e569-44b7-b6c3-d398efc9ff62}</Project>
+      <Name>Facebook.CSSLayout.Universal</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
@@ -141,7 +142,7 @@
     </ItemGroup>
     <Copy SourceFiles="@(CSSLayoutDll)" DestinationFolder="$(OutputPath)" ContinueOnError="false" />
     <Copy SourceFiles="@(CSSLayoutDll)" DestinationFolder="$(OutputPath)\AppX" ContinueOnError="false" />
-  </Target>  
+  </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

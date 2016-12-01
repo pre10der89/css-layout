@@ -2,7 +2,7 @@
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 
-namespace Facebook.CSSLayout.Universal.App
+namespace Facebook.CSSLayout
 {
     public sealed partial class MainPage : Page
     {
